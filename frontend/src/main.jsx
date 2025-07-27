@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
+import { motion } from 'framer-motion';
 import { ClerkProvider, ClerkLoaded, ClerkLoading } from "@clerk/clerk-react";
 import App from "./App";
 import "./index.css"; 
