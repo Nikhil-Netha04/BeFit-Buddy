@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Generator from "./components/Generator";
 import Workout from "./components/Workout";
+import { motion } from 'framer-motion';
 import Auth from "./components/Auth"; 
 import { generateWorkout } from "./utils/functions";
 
